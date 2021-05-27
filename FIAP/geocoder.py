@@ -2,6 +2,6 @@
 
 from pygeocoder import Geocoder
 
-endereco = '141, Amélia Carraro Pavão, Piracicaba,SP'
+endereco = 'Digite o Endereço'
 
-print(Geocoder('AIzaSyDsF6-ETfWjCOTIxbwc6cnINqx8MNAeJho').geocode(endereco).coordinates)
+print(Geocoder('Key API GOOGLE').geocode(endereco).coordinates)
